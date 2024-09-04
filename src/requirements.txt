@@ -1,0 +1,49 @@
+# Core machine learning libraries
+scikit-learn
+xgboost
+lightgbm
+catboost
+
+# Hyperparameter tuning and optimization
+optuna
+
+# Deep learning frameworks
+tensorflow<2.11
+keras
+
+# Model interpretability
+shap
+lime
+
+# Fairness and bias mitigation
+aif360
+fairlearn
+
+# Experiment tracking and management
+mlflow
+
+# Testing and robustness
+pytest
+adversarial-robustness-toolbox
+
+# Data manipulation and scientific computing
+numpy
+pandas
+scipy
+
+# Data visualization
+matplotlib
+seaborn
+
+# Jupyter environment
+jupyterlab
+notebook
+
+# Model persistence and utility functions
+joblib
+
+# Handling imbalanced datasets
+imbalanced-learn
+
+# Additional required libraries
+category_encoders
