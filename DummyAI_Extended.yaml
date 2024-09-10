@@ -1,0 +1,41 @@
+name: DummyAI_Extended
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core machine learning libraries
+  - lightgbm
+  - catboost
+
+  # Hyperparameter tuning and optimization
+  - optuna
+
+  # Deep learning
+  - keras
+
+  # Model interpretability
+  - shap
+  - lime
+
+  # Fairness and bias mitigation
+  - aif360
+  - fairlearn
+
+  # Experiment tracking and management
+  - mlflow
+
+  # Testing and robustness
+  - pytest
+  - adversarial-robustness-toolbox
+
+  # Data manipulation and scientific computing
+  - scipy
+
+  # Model persistence and utility functions
+  - joblib
+
+  # Handling imbalanced datasets
+  - imbalanced-learn
+
+  # Additional required libraries
+  - category_encoders
