@@ -1,0 +1,19 @@
+name: DummyAI
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - notebook
+  - python=3.8
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - xgboost
+  - cudatoolkit=11.2
+  - cudnn=8.1.0
+  - tqdm
+  - pip
+  - pip:
+      - "tensorflow<2.11"
